@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="iv_height">200dp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_large">16sp</dimen>
+    <dimen name="text_extra_large">24sp</dimen>
+    <dimen name="text_very_large">36sp</dimen>
+
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_extra_large">24dp</dimen>
+    <dimen name="margin_rating_professional">61dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_extra_large">24dp</dimen>
+
+    <dimen name="image_view_logo">160dp</dimen>
+    <dimen name="corners_radius">6dp</dimen>
+
+    <dimen name="textView_height_small">20dp</dimen>
+    <dimen name="textView_height_medium">40dp</dimen>
+    <dimen name="textView_height_large">60dp</dimen>
+    <dimen name="textView_height_extra_large">80dp</dimen>
+</resources>

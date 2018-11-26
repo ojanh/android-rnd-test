@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <fragment
+        android:name="com.google.android.gms.location.places.ui.SupportPlaceAutocompleteFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/main_fragment_autocomplete"
+        tools:context = "com.ojanfauzan.rndtest.MainActivity"/>
+
+    <TextView
+        android:id="@+id/name_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_medium"
+        android:text="Test"
+        android:padding="@dimen/padding_medium"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/address_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_medium"
+        android:text="Test"
+        android:padding="@dimen/padding_medium"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
