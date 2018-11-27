@@ -1,4 +1,4 @@
-package com.ojanfauzan.rndtest.mvvm_test;
+package com.ojanfauzan.rndtest.mvvm_test.model;
 
 import javax.inject.Inject;
 
@@ -13,7 +13,7 @@ public class MvvmTestUseCaseModel {
         this.mvvmTestModel = mvvmTestModel;
     }
 
-    Single<String> execute(){
+    public Single<String> execute(){
         return mvvmTestModel.getGreeting();
     }
 }

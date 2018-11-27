@@ -1,4 +1,4 @@
-package com.ojanfauzan.rndtest;
+package com.ojanfauzan.rndtest.test1;
 
 import android.location.Address;
 import android.location.Geocoder;
@@ -12,6 +12,7 @@ import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.ui.PlaceSelectionListener;
 import com.google.android.gms.location.places.ui.SupportPlaceAutocompleteFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.ojanfauzan.rndtest.R;
 
 import java.io.IOException;
 import java.util.List;

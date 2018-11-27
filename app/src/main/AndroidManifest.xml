@@ -23,15 +23,19 @@
             android:name="com.google.android.geo.v2.API_KEY"
             android:value="AIzaSyAQwmC5cwX39mi2ZIaou9FQueOq83WduPA" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".test1.MainActivity">
+
+        </activity>
+
+        <activity android:name=".mvvm_test.MvvmTestView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".mvvm_test.MvvmTestView"></activity>
     </application>
 
 </manifest>

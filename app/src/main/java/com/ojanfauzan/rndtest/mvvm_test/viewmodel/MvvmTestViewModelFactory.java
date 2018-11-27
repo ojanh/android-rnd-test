@@ -1,8 +1,10 @@
-package com.ojanfauzan.rndtest.mvvm_test;
+package com.ojanfauzan.rndtest.mvvm_test.viewmodel;
 
 import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
 import android.support.annotation.NonNull;
+
+import com.ojanfauzan.rndtest.mvvm_test.model.MvvmTestUseCaseModel;
 
 import io.reactivex.Scheduler;
 

@@ -1,10 +1,10 @@
-package com.ojanfauzan.rndtest.mvvm_test;
+package com.ojanfauzan.rndtest.mvvm_test.viewmodel;
 
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
 
 import com.ojanfauzan.rndtest.base.ResponseModel;
-import com.ojanfauzan.rndtest.base.Status;
+import com.ojanfauzan.rndtest.mvvm_test.model.MvvmTestUseCaseModel;
 
 import io.reactivex.Scheduler;
 import io.reactivex.disposables.CompositeDisposable;
@@ -29,7 +29,7 @@ public class MvvmTestViewModel extends ViewModel {
         super.onCleared();
     }
 
-    MutableLiveData<ResponseModel> getResponse(){
+    public MutableLiveData<ResponseModel> getResponse(){
         return response;
     }
 

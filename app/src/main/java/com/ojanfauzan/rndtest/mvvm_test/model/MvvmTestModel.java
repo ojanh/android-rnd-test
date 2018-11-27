@@ -1,4 +1,4 @@
-package com.ojanfauzan.rndtest.mvvm_test;
+package com.ojanfauzan.rndtest.mvvm_test.model;
 
 import io.reactivex.Single;
 
